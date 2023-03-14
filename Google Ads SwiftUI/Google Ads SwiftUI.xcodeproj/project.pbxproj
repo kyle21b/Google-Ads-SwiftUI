@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A26EFF929B9F60C00C41F91 /* NativeAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A26EFF829B9F60C00C41F91 /* NativeAdView.swift */; };
+		6A9B621529B7C4B1008878BF /* Google_Ads_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B621429B7C4B1008878BF /* Google_Ads_SwiftUIApp.swift */; };
+		6A9B621729B7C4B1008878BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B621629B7C4B1008878BF /* ContentView.swift */; };
+		6A9B621929B7C4B3008878BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B621829B7C4B3008878BF /* Assets.xcassets */; };
+		6A9B621C29B7C4B3008878BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B621B29B7C4B3008878BF /* Preview Assets.xcassets */; };
+		6A9B622829B7D19C008878BF /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 6A9B622729B7D19C008878BF /* GoogleMobileAds */; };
+		6A9B622A29B7EA14008878BF /* UINativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B622929B7EA14008878BF /* UINativeAdView.xib */; };
+		6A9B622C29B7EA30008878BF /* UINativeAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B622B29B7EA30008878BF /* UINativeAdView.swift */; };
+		6A9B622E29B7EAF7008878BF /* NativeAdMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B622D29B7EAF7008878BF /* NativeAdMocks.swift */; };
+		6A9B623029B7F2A8008878BF /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B622F29B7F2A8008878BF /* PaddedLabel.swift */; };
+		6A9B623C29B86DB9008878BF /* FullscreenNativeAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B623929B86975008878BF /* FullscreenNativeAdView.swift */; };
+		6ACB017129B91BA7008CAFCD /* AdLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB017029B91BA7008CAFCD /* AdLoader.swift */; };
+		6ACB017429B91F8A008CAFCD /* GADExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB017329B91F8A008CAFCD /* GADExtensions.swift */; };
+		6ACB017629B9211E008CAFCD /* AutomaticAdLoadingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB017529B9211E008CAFCD /* AutomaticAdLoadingExample.swift */; };
+		6ACB017829B92125008CAFCD /* ManualAdLoadingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB017729B92125008CAFCD /* ManualAdLoadingExample.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A26EFF829B9F60C00C41F91 /* NativeAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdView.swift; sourceTree = "<group>"; };
+		6A9B621129B7C4B1008878BF /* Google Ads SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Ads SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A9B621429B7C4B1008878BF /* Google_Ads_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_Ads_SwiftUIApp.swift; sourceTree = "<group>"; };
+		6A9B621629B7C4B1008878BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A9B621829B7C4B3008878BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A9B621B29B7C4B3008878BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A9B622529B7CFF7008878BF /* Google-Ads-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Google-Ads-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6A9B622929B7EA14008878BF /* UINativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UINativeAdView.xib; sourceTree = "<group>"; };
+		6A9B622B29B7EA30008878BF /* UINativeAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINativeAdView.swift; sourceTree = "<group>"; };
+		6A9B622D29B7EAF7008878BF /* NativeAdMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdMocks.swift; sourceTree = "<group>"; };
+		6A9B622F29B7F2A8008878BF /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		6A9B623929B86975008878BF /* FullscreenNativeAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenNativeAdView.swift; sourceTree = "<group>"; };
+		6ACB017029B91BA7008CAFCD /* AdLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdLoader.swift; sourceTree = "<group>"; };
+		6ACB017329B91F8A008CAFCD /* GADExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GADExtensions.swift; sourceTree = "<group>"; };
+		6ACB017529B9211E008CAFCD /* AutomaticAdLoadingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticAdLoadingExample.swift; sourceTree = "<group>"; };
+		6ACB017729B92125008CAFCD /* ManualAdLoadingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualAdLoadingExample.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A9B620E29B7C4B1008878BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9B622829B7D19C008878BF /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A9B620829B7C4B1008878BF = {
+			isa = PBXGroup;
+			children = (
+				6A9B621329B7C4B1008878BF /* Google Ads SwiftUI */,
+				6A9B621229B7C4B1008878BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A9B621229B7C4B1008878BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B621129B7C4B1008878BF /* Google Ads SwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A9B621329B7C4B1008878BF /* Google Ads SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B622529B7CFF7008878BF /* Google-Ads-SwiftUI-Info.plist */,
+				6A9B621429B7C4B1008878BF /* Google_Ads_SwiftUIApp.swift */,
+				6A9B621629B7C4B1008878BF /* ContentView.swift */,
+				6A9B623629B7F342008878BF /* UIKit */,
+				6A9B623729B7F34C008878BF /* SwiftUI */,
+				6A9B623829B7F353008878BF /* Testing */,
+				6ACB017229B91BAB008CAFCD /* Controller */,
+				6A9B621829B7C4B3008878BF /* Assets.xcassets */,
+				6A9B621A29B7C4B3008878BF /* Preview Content */,
+			);
+			path = "Google Ads SwiftUI";
+			sourceTree = "<group>";
+		};
+		6A9B621A29B7C4B3008878BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B621B29B7C4B3008878BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A9B623629B7F342008878BF /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B622929B7EA14008878BF /* UINativeAdView.xib */,
+				6A9B622B29B7EA30008878BF /* UINativeAdView.swift */,
+				6A9B622F29B7F2A8008878BF /* PaddedLabel.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		6A9B623729B7F34C008878BF /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				6A26EFF829B9F60C00C41F91 /* NativeAdView.swift */,
+				6A9B623929B86975008878BF /* FullscreenNativeAdView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		6A9B623829B7F353008878BF /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B622D29B7EAF7008878BF /* NativeAdMocks.swift */,
+				6ACB017529B9211E008CAFCD /* AutomaticAdLoadingExample.swift */,
+				6ACB017729B92125008CAFCD /* ManualAdLoadingExample.swift */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		6ACB017229B91BAB008CAFCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6ACB017029B91BA7008CAFCD /* AdLoader.swift */,
+				6ACB017329B91F8A008CAFCD /* GADExtensions.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A9B621029B7C4B1008878BF /* Google Ads SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A9B621F29B7C4B3008878BF /* Build configuration list for PBXNativeTarget "Google Ads SwiftUI" */;
+			buildPhases = (
+				6A9B620D29B7C4B1008878BF /* Sources */,
+				6A9B620E29B7C4B1008878BF /* Frameworks */,
+				6A9B620F29B7C4B1008878BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google Ads SwiftUI";
+			packageProductDependencies = (
+				6A9B622729B7D19C008878BF /* GoogleMobileAds */,
+			);
+			productName = "Google Ads SwiftUI";
+			productReference = 6A9B621129B7C4B1008878BF /* Google Ads SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A9B620929B7C4B1008878BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6A9B621029B7C4B1008878BF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 6A9B620C29B7C4B1008878BF /* Build configuration list for PBXProject "Google Ads SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A9B620829B7C4B1008878BF;
+			packageReferences = (
+				6A9B622629B7D19C008878BF /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = 6A9B621229B7C4B1008878BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A9B621029B7C4B1008878BF /* Google Ads SwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A9B620F29B7C4B1008878BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9B621C29B7C4B3008878BF /* Preview Assets.xcassets in Resources */,
+				6A9B622A29B7EA14008878BF /* UINativeAdView.xib in Resources */,
+				6A9B621929B7C4B3008878BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A9B620D29B7C4B1008878BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9B622E29B7EAF7008878BF /* NativeAdMocks.swift in Sources */,
+				6A9B623029B7F2A8008878BF /* PaddedLabel.swift in Sources */,
+				6A9B621729B7C4B1008878BF /* ContentView.swift in Sources */,
+				6ACB017129B91BA7008CAFCD /* AdLoader.swift in Sources */,
+				6ACB017829B92125008CAFCD /* ManualAdLoadingExample.swift in Sources */,
+				6A9B622C29B7EA30008878BF /* UINativeAdView.swift in Sources */,
+				6ACB017629B9211E008CAFCD /* AutomaticAdLoadingExample.swift in Sources */,
+				6A26EFF929B9F60C00C41F91 /* NativeAdView.swift in Sources */,
+				6A9B623C29B86DB9008878BF /* FullscreenNativeAdView.swift in Sources */,
+				6A9B621529B7C4B1008878BF /* Google_Ads_SwiftUIApp.swift in Sources */,
+				6ACB017429B91F8A008CAFCD /* GADExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6A9B621D29B7C4B3008878BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A9B621E29B7C4B3008878BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A9B622029B7C4B3008878BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Google Ads SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Google-Ads-SwiftUI-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kb.Google-Ads-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A9B622129B7C4B3008878BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Google Ads SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Google-Ads-SwiftUI-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kb.Google-Ads-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A9B620C29B7C4B1008878BF /* Build configuration list for PBXProject "Google Ads SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A9B621D29B7C4B3008878BF /* Debug */,
+				6A9B621E29B7C4B3008878BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A9B621F29B7C4B3008878BF /* Build configuration list for PBXNativeTarget "Google Ads SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A9B622029B7C4B3008878BF /* Debug */,
+				6A9B622129B7C4B3008878BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6A9B622629B7D19C008878BF /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6A9B622729B7D19C008878BF /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A9B622629B7D19C008878BF /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6A9B620929B7C4B1008878BF /* Project object */;
+}
