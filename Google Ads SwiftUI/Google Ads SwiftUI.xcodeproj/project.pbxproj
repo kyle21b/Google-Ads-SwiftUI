@@ -26,12 +26,12 @@
 
 /* Begin PBXFileReference section */
 		6A26EFF829B9F60C00C41F91 /* NativeAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdView.swift; sourceTree = "<group>"; };
+		6A31C05329E5E45F0044D324 /* Google-Ads-SwiftUI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Google-Ads-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 		6A9B621129B7C4B1008878BF /* Google Ads SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Ads SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9B621429B7C4B1008878BF /* Google_Ads_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_Ads_SwiftUIApp.swift; sourceTree = "<group>"; };
 		6A9B621629B7C4B1008878BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6A9B621829B7C4B3008878BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A9B621B29B7C4B3008878BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6A9B622529B7CFF7008878BF /* Google-Ads-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Google-Ads-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 		6A9B622929B7EA14008878BF /* UINativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UINativeAdView.xib; sourceTree = "<group>"; };
 		6A9B622B29B7EA30008878BF /* UINativeAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINativeAdView.swift; sourceTree = "<group>"; };
 		6A9B622D29B7EAF7008878BF /* NativeAdMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdMocks.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		6A9B621329B7C4B1008878BF /* Google Ads SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				6A9B622529B7CFF7008878BF /* Google-Ads-SwiftUI-Info.plist */,
+				6A31C05329E5E45F0044D324 /* Google-Ads-SwiftUI-Info.plist */,
 				6A9B621429B7C4B1008878BF /* Google_Ads_SwiftUIApp.swift */,
 				6A9B621629B7C4B1008878BF /* ContentView.swift */,
 				6A9B623629B7F342008878BF /* UIKit */,

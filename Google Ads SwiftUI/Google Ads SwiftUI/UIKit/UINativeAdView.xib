@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -15,11 +16,11 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3eq-9D-P5J" userLabel="Background View">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="557"/>
+                    <rect key="frame" x="0.0" y="20" width="375" height="537"/>
                     <color key="backgroundColor" white="0.23000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Advertisement" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lp1-oz-XOs">
-                    <rect key="frame" x="8" y="0.0" width="93" height="16"/>
+                    <rect key="frame" x="8" y="20" width="93" height="16"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
@@ -30,7 +31,7 @@
                     </userDefinedRuntimeAttributes>
                 </label>
                 <view contentMode="scaleAspectFit" verticalHuggingPriority="999" translatesAutoresizingMaskIntoConstraints="NO" id="fNp-yu-K4i" customClass="GADMediaView">
-                    <rect key="frame" x="0.0" y="20" width="375" height="332"/>
+                    <rect key="frame" x="0.0" y="40" width="375" height="312"/>
                     <constraints>
                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="120" id="odg-8R-fNz"/>
                     </constraints>
@@ -110,7 +111,7 @@
                     <rect key="frame" x="16" y="535" width="343" height="44"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$1.99" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ysb-of-cat" customClass="PaddedLabel" customModule="Google_Ads_SwiftUI" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="7" width="54" height="30"/>
+                            <rect key="frame" x="0.0" y="13" width="38" height="18"/>
                             <color key="backgroundColor" red="0.87364861105575042" green="0.5096283564491878" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -135,7 +136,7 @@
                             </userDefinedRuntimeAttributes>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App Store" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwF-UL-Q8H" customClass="PaddedLabel" customModule="Google_Ads_SwiftUI" customModuleProvider="target">
-                            <rect key="frame" x="62" y="7" width="84.5" height="30"/>
+                            <rect key="frame" x="46" y="13" width="68.5" height="18"/>
                             <color key="backgroundColor" red="0.17355025329561002" green="0.66416346934281523" blue="0.29703793352517893" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -160,7 +161,7 @@
                             </userDefinedRuntimeAttributes>
                         </label>
                         <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5w-YA-UY8">
-                            <rect key="frame" x="154.5" y="0.0" width="188.5" height="44"/>
+                            <rect key="frame" x="122.5" y="0.0" width="220.5" height="44"/>
                             <color key="backgroundColor" systemColor="linkColor"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="44" id="hyf-0E-bMb"/>
@@ -233,10 +234,10 @@
     </objects>
     <designables>
         <designable name="Ysb-of-cat">
-            <size key="intrinsicContentSize" width="54" height="30"/>
+            <size key="intrinsicContentSize" width="38" height="18"/>
         </designable>
         <designable name="hwF-UL-Q8H">
-            <size key="intrinsicContentSize" width="84.5" height="30"/>
+            <size key="intrinsicContentSize" width="68.5" height="18"/>
         </designable>
     </designables>
     <resources>
